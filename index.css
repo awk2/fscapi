@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ffa502;
+  font-size:25px;
+}
+
+th{
+    color:white;
+    background-color: #ffa502;
+    text-align:center;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+@media screen and (max-width: 800px)
+{
+   th, td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ffa502;
+  font-size:14px;
+}
+}
